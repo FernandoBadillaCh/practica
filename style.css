@@ -5,5 +5,32 @@
 }
 
 .Cajablanca{
-    background: white;
+    background: red;
+    width: auto;
+    margin: 0 0;
+}
+
+
+
+nav h1{
+
+}
+
+nav li{
+    
+    margin: 25px 10px 0 0;
+    
+}
+
+
+nav a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    transition: 300ms;
 }
