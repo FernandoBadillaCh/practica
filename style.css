@@ -1,3 +1,6 @@
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 .Cajanegra{
     background: black;
@@ -12,32 +15,164 @@
 
 }
 
-
-
-
 nav h1{
-display: inline;
+display: inline-block;
 padding: 10px;
-;
-
 }
 
 nav li{
-    display: inline;
-    
+    display: inline-block;
 }
 
 
 nav a {
     color: black;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1.35rem;
     text-decoration: none;
     vertical-align: middle;
-    margin: 0 10px 0 0;
+    margin: 0 1rem 0 0;
+    
 }
 
 nav a:hover {
     color: blue;
     transition: 300ms;
+}
+
+.main1{
+    background: url(Imagenes/Fondobl.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+
+.infojuego{
+    
+    width: 50%;
+    margin: 0 0 0 5%;
+    border: solid rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+.infojuego #juego{
+    font-size: 3.8rem;
+    margin: 6rem 0 0 0;
+}
+
+.infojuego #empresa{
+    margin: 2rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+.infojuego #info{
+    margin: 2rem 0;
+}
+
+.precio{
+    border: transparent;
+    border-radius: 15px;
+    width: 45%;
+    padding: 10px;
+    transition: 400ms;
+}
+
+.items{
+    margin: 0 0 3rem 0;
+}
+
+.precio:hover{
+    background: rgba(255, 255, 255, 0.397);
+
+
+}
+
+.infojuego .precio{
+    font-size: 2rem;
+    margin: 1rem 1rem 0 1rem;
+    
+    
+}
+
+li p{
+    margin: 0 0 0 2.7rem;
+    font-size: 15px;
+}
+
+.infogeneral{
+    margin: 3rem;
+}
+
+#botoncarrito{
+ width: 30%;
+ padding: 8px 15px;
+ border-radius: 15px;
+ font-size: 1.1rem;
+ background: darkorange;
+ color: white;
+ border: none;
+ margin: 0 0 3rem 2rem;
+cursor: pointer;
+}
+
+#botoncarrito:hover{
+
+    background: #b4680c;
+}
+
+
+
+table, table td, table tr{
+    padding: 10px 0 0;
+
+}
+table{
+    margin: 0 0 10rem 0;
+}
+
+.main2{
+    background: linear-gradient(black, rgb(59, 59, 59));
+    width: 100%;
+}
+
+h1{
+    font-size: 2rem;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    
+}
+
+.videos{
+    border: none;
+    margin: 0 0;
+}
+
+.ventanavideo {
+    width: 560px;
+    margin: 0 auto 6rem;
+}
+
+.BG{
+    width: 100%;
+    height: 100px;
+}
+
+.cajatexto{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.Texto{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
 }
